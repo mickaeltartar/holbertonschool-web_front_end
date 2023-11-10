@@ -132,7 +132,7 @@ body {
 }
 
 .header-logo {
-	position: var(--header-logo-link-position);
+	position: var(--header-logo-position);
 }
 
 .header-logo a {
@@ -140,6 +140,10 @@ body {
 	position: var(--header-logo-link-position);
 	top: var(--header-logo-link-top);
 	left: var(--header-logo-link-left);
+}
+
+.section-header {
+    text-align: var(--section-header-align);
 }
 
 a {
@@ -184,10 +188,7 @@ a:active {
 .section {
     padding: var(--section-padding);
 }
-.section-header {
-    text-align: var(--section-header-align);
-    padding: var(--section-header-padding);
-}
+
 .section-body {
     padding: var(--section-body-padding);
 }
